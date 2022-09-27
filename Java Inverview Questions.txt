@@ -1,0 +1,136 @@
+Dependecy injection- Setter based and construtor based injection,inject any bin in any container in the spring, use ioc container uses dependecy injection
+Autowiring- It will detect automatically bin and inject bins automatically
+what are bin oops we have? 
+Singlton prototypes bin
+Bin factory- Application context and basic container
+Application context explain,
+what are rest API annotation- @restController,@produce,@queryParamter,@Consume,PathParameter
+What is @ResponseBody annotation
+if want to get response in XML?
+what is @SpringBootApplication?
+How it will detect Bin?
+how Autoconfiguration works?
+what is SpringBoot-Starter-Parent?
+what are the advatages of using starter?
+what is actuator?
+what are matrix, I can check?
+how will you connect database-Hibernate, JDBC
+Use SQL Query to execute in SpringBoot in reposatory using Hibernate
+Spring Data JPA??
+MicroService Architecture??
+Spring Cloud Component??
+Serilization in java??
+HashCode Collision in HashMap??
+What is static?
+What is unique about String?
+Create class immutable?
+How often Heap memory get to grabage collected?
+String Builder and String Buffer
+what are different type of Exception that you have hadle and explain in details?
+can we handle unchecked exception, is it a good practice?
+e.printStackTrace
+Log a exception or any message 
+how do I use Logger?
+what about appender in Log4j?
+how do I serilize any object in java?API or Service to Serilization
+Marker interface?
+What are annotations? annotations are nothing but classes, can we make own annotation
+Factory design pattern??use mediatype JSON and create new class to read JSON
+understand third party objects?? Adapter pattern??
+Singloton class??
+Strategy pattern??
+versioning of web services end points??
+String constant pool?
+String immutable advantage- we can create a large number of reference that will refer to same objects, not create new objects in constant pool,helps in memory optimization
+what are streamAPI's??
+ArrayList v/s LinkedList
+HashMap V/s Concurrent HashMap
+HashMap working internally??
+Customize Exception??
+Exception Propogation?
+@Component and @ComponentScan annotation?
+Autowiring for same bin?
+@Qualifier annotation?
+@Consume
+How to secure REST Api?
+@pathvariable and @RequestParameter
+
+########################################
+
+Interviewer : Rob
+Brief intro
+Tech Stack worked on
+What do you think about Microservices and why used in your project ?
+What is Spring Boot and it's advantages
+IOC and DI concept in spring boot
+Component scanning in spring boot and how it works 
+What is SQL injection
+Spring Data Jdbc
+Variables injection in SQL
+Cost estimations and man days estimations
+Agile methodologies
+Handling high priority user requests
+Cost approvals.
+Change process from dev to production
+
+Kyle
+Brief intro
+Previous Project discussion
+Cleint interaction
+How to gather requirements 
+(Basically looking out for strong Communication skills as the clients are pretty diverse)
+How to handle new feature request
+Have rejected any user request based on feasibility?
+Unit test
+How to handle end user and dev team requirements gap
+Escalations
+How to handle country specific and client specific requests
+Few questions on Agile
+
+Cost estimations and man days estimations
+Handling high priority user requests
+Cost approvals.
+Change process from dev to production
+
+What is the default value of the local variables?
+The local variables are not initialized to any default value, neither primitives nor object references.
+
+################################################
+
+-> IoC is also known as dependency injection (DI)
+-> Spring beans are just instance objects that are managed by the Spring container, namely, they are created and wired by the framework and put into a "bag of objects" (the 	container) from where you can get them later.The "wiring" part there is what dependency injection is all about, what it means is that you can just say "I will need this thing" and the framework will follow some rules to get you the proper instance.
+-> In Spring, the objects that form the backbone of your application and that are managed by the Spring IoC container are called beans. A bean is an object that is instantiated, assembled, and managed by a Spring IoC container. Otherwise, a bean is simply one of many objects in your application. Beans, and the dependencies among them, are reflected in the configuration metadata used by a container
+-> Java is the high-level, object-oriented, robust, secure programming language, platform-independent, high performance, Multithreaded, and portable programming language. It was developed by James Gosling in June 1991. It can also be known as the platform as it provides its own JRE and API.
+-> 
+
+
+
+Default Constructor: default constructor is the one which does not accept any value. The default constructor is mainly used to initialize the instance variable with the default values. It can also be used for performing some useful task on object creation. A default constructor is invoked implicitly by the compiler if there is no constructor defined in the class.
+Parameterized Constructor: The parameterized constructor is the one which can initialize the instance variables with the given values. In other words, we can say that the constructors which can accept the arguments are called parameterized constructors.
+
+
+Ques- Does constructor return any value?
+Ans: yes, The constructor implicitly returns the current instance of the class (You can't use an explicit return type with the constructor)
+Ques- Is constructor inherited?
+ANs: No, The constructor is not inherited.
+Ques- Can you make a constructor final?
+Ans- No, the constructor can't be final.
+Ques- Can we overload the constructors?
+Ans- Yes, the constructors can be overloaded by changing the number of arguments accepted by the constructor or by changing the data type of the parameters. 
+
+What are the differences between the constructors and methods?
+
+csv to JSON
+
+
+
+
+
+External Auth intro 
+Brizjen pattern
+steps to Integerate Hibernate in SpringBoot
+what If I don't use @component?
+Second Level Cache?
+GetMethos v/s LoadMethod
+called stored Procedure in Hibernate, customize query in Hibernate
+Second Highest Salary
