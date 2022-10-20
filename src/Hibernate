@@ -1,0 +1,14 @@
+Hibernate Caching:			
+=====================
+Caching is a mechanishm to enhance the performance of Application
+Caching is used to reduce the number of databse queries
+=======================
+First Level Caching-> Session Object-> By Default Provide
+Second Level Caching-> Session Factory-> Manually Enable
+Query Level Caching
+########################################
+API:
+====
+It is a set of rules that allows program to talk to each other. The developer creates API on server side and allows client to talk to it.
+##########
+Rest-> representational state transfer-> stateless communication
