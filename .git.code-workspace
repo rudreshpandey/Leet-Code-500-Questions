@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": ".git"
+		},
+		{
+			"path": "images"
+		},
+		{
+			"path": "Interview"
+		},
+		{
+			"path": "LikedList"
+		},
+		{
+			"path": "queue"
+		},
+		{
+			"path": "src"
+		},
+		{
+			"path": "stack"
+		}
+	]
+}
