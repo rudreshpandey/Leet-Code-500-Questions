@@ -1,0 +1,9 @@
+Object class and methods
+native methods
+notify and notifyAll
+multithreading
+thread uses in deep
+call one thread to another thread;
+OOPs paradigm
+Hashmap structure
+static methods
