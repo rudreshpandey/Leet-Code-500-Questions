@@ -24,8 +24,11 @@ public class MajorityElement {
         int ele =-1;
         int count =0;
         for(int i=0;i<size;i++){
-            if(count == 0) ele = a[i];
-            if(a[i]==ele) count++; 
+            if(count == 0){
+                ele = a[i];
+                count = 1;
+            }
+            else if(a[i]==ele) count++; 
             else count--;
         }
         count=0;

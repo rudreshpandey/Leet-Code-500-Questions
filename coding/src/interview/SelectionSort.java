@@ -1,6 +1,10 @@
 package interview;
 
 public class SelectionSort {
+	public static void main(String[] args) {
+		int gap =(int) Math.ceil((double)(n + m) / 2.0);
+		System.out.println(gap);
+	}
 
     //https://www.geeksforgeeks.org/selection-sort/
     void selectionSort(int arr[], int n)

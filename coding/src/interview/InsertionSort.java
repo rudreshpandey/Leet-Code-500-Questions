@@ -1,6 +1,10 @@
-package interview;
+ package interview;
 
 public class InsertionSort {
+    public static void main(String[] args) {
+        int gap =(int) Math.ceil((double)(4 + 5) / 2.0);
+        System.out.println(gap);
+    }
     public void insertionSort(int arr[], int n)
   {
       //code here
